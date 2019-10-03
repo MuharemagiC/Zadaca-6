@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+        overflow-x: hidden;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: -350px;
+}
+
+.main-logo {
+    display: flex;
+}
+
+.main-logo img{
+    width: 110px;
+    height: 40px;
+}
+
+.main-link {
+    list-style: none;
+    padding: 8px;
+}
+
+.main-link a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    padding-bottom: 19px;
+}
+
+.main-links ul {
+    display: flex;
+    margin-top: -1px;
+}
+
+.main-search {
+    position: relative;
+    left: 400px;
+    top: -48px;
+    background: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.int {
+    width: 200px;
+}
+
+.button-1 {
+    margin-left: -20px;
+}
+
+.main-list a.active {
+    border-bottom: 3px solid #ffbf00;
+}
+
+.main-picture {
+    background-image: url("slika-plaza.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -22px
+}
+
+.main-text {
+    position: relative;
+    left: 500px;
+    top: 50px;
+    color: white;
+    font-weight: normal;
+    font: 10
+}
+.main-text__two {
+    position: relative;
+    left: 500px;
+    top: 60px;
+    color: white;
+}
+
+.main-text__three {
+    position: relative;
+    left: 500px;
+    top: 70px;
+    color: white;
+    font-size: 10;
+}
+
+.button-with-plane {
+    position: relative;
+    left: 500px;
+    top: 110px;
+    color: white;
+    background:  #ffbf00;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px; 
+}
+
+.button-plane {
+    margin-left: 88px;
+}
+
+.main-text__six h4 {
+    color: rgb(71, 71, 71);
+    position: relative;
+    left: 465px;
+}
+.main-text__six hr {
+    max-width: 750px;
+    position: relative;
+    left: 2px;
+    top: 6px;
+}
+
+.section-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 475px;
+    top: 30px;
+    font-size: 30px;
+    color: rgb(71, 71, 71)
+}
+
+.section-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 468px;
+    top: 35px;
+    color: rgb(71, 71, 71)
+}
+
+.section-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 468px;
+    top: 40px;
+    color: rgb(71, 71, 71);
+    
+}
+
+.text-one {
+    margin-right:30px;
+}
+
+.section-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 368px;
+    top: 40px;
+    color: rgb(71, 71, 71);
+}
+
+.section-buttons button {
+    background: white;
+    border: none;
+    color: #ecb309;
+}
+
+.spn-one {
+    width: 200px;
+    background: rgba(199, 223, 255, 0.767);
+    height: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 468px;
+    top: 75px;
+    margin-right: 100px;
+}
+
+.spn-two {
+    width: 200px;
+    background: rgba(199, 223, 255, 0.767);
+    height: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 735px;
+    top: 63px;
+    margin-right: 100px;
+}
+
+.spn-three {
+    width: 200px;
+    background: rgba(199, 223, 255, 0.767);
+    height: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    position: relative;
+    left: 998px;
+    top: 50px;
+    margin-right: 100px;
+}
